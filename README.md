@@ -1,12 +1,13 @@
 # VMI skolų dashboardas
 
-Streamlit aplikacija, kuri automatiškai paima VMI juridinių asmenų nepriemokų duomenis ir rodo:
+Streamlit dashboardas, kuris automatiškai paima VMI juridinių asmenų nepriemokų duomenis ir rodo:
 
-- kiek įmonių turi VMI skolą;
-- bendrą VMI skolų sumą;
+- greitą įmonės paiešką pagal kodą;
+- bendrą VMI skolą;
+- mažiausią, didžiausią, vidutinę skolą ir medianą;
 - pradelstą ir atidėtą nepriemoką;
-- skolų intervalų grafikus;
-- konkrečios įmonės paiešką pagal įmonės kodą;
+- skolų intervalų grafikus VMI žalia spalva;
+- didžiausių skolų lentelę;
 - CSV eksportą.
 
-Paleidimo failas Streamlit Cloud: `app.py`.
+Paleidimas Streamlit Cloud: `app.py` kaip main file.
