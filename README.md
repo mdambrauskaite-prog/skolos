@@ -1,16 +1,12 @@
-# VMI ir Sodros skolų dashboardas
+# VMI skolų dashboardas
 
-## Paleidimas lokaliai
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+Streamlit aplikacija, kuri automatiškai paima VMI juridinių asmenų nepriemokų duomenis ir rodo:
 
-## Deploy
-Tinka Streamlit Community Cloud, Render, Railway arba vidinis serveris. Vartotojui reikės tik atsidaryti app nuorodą.
+- kiek įmonių turi VMI skolą;
+- bendrą VMI skolų sumą;
+- pradelstą ir atidėtą nepriemoką;
+- skolų intervalų grafikus;
+- konkrečios įmonės paiešką pagal įmonės kodą;
+- CSV eksportą.
 
-App automatiškai ima:
-- VMI: `data.gov.lt` / `get.data.gov.lt` juridinių asmenų mokestinės nepriemokos duomenis
-- Sodra: `https://sodra.lt/Failai/Skolos.zip`
-
-Jei Sodra laikinai neatsisiunčia iš serverio, šoninėje juostoje galima įkelti `Skolos.zip` ranka.
+Paleidimo failas Streamlit Cloud: `app.py`.
